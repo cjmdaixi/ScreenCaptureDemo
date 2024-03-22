@@ -1,0 +1,1 @@
+./ffmpeg  -y -framerate 30 -pkt_size 20971520 -i zmq:tcp://127.0.0.1:5556  -c:v h264_videotoolbox -b:v 50 output.mp4
